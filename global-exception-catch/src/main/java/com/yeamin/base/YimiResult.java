@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 
 /**
- * @author litong
+ * @author tong.li
  * @date: 2018/12/3 13:17
  * @description: 接口返回结果类
  */

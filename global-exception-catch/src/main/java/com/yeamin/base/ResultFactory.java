@@ -7,7 +7,7 @@ import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
 /**
- * @Auther: litong
+ * @Auther: tong.li
  * @Date: 2018-12-29 14:03
  * @Description: ResultFactory
  */
@@ -22,7 +22,7 @@ public class ResultFactory implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        messageSource= (MessageSource)context.getBean("messageSource");
+        messageSource= (MessageSource)context.getBean(MessageSource.class);
     }
 
 
