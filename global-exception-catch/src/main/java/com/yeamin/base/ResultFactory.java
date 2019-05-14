@@ -22,7 +22,7 @@ public class ResultFactory implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        messageSource= (MessageSource)context.getBean(MessageSource.class);
+        messageSource= context.getBean(MessageSource.class);
     }
 
 
